@@ -26,7 +26,10 @@
         <activity
             android:name=".RelajaLaNeurona"
             android:label="Relaja la neurona"
-            android:parentActivityName=".ActivityPrincipal"/>
+            android:parentActivityName=".ActivityPrincipal" />
+        <activity android:name=".Memes"
+            android:label="Memes"
+            android:parentActivityName=".RelajaLaNeurona"/>
         <activity
             android:name=".Ayuda"
             android:label="Ayuda"
@@ -40,6 +43,7 @@
             android:name=".Conocenos"
             android:label="Conócenos"
             android:parentActivityName=".Ayuda" />
+
     </application>
 
 </manifest>

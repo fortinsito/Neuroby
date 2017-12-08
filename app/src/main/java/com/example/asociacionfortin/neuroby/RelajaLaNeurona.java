@@ -1,6 +1,7 @@
 package com.example.asociacionfortin.neuroby;
 
 import android.app.Dialog;
+import android.content.Intent;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -20,6 +21,28 @@ public class RelajaLaNeurona extends AppCompatActivity {
 
         Button buttonInfo = (Button) findViewById(R.id.buttonInfo);
 
+
+
+
+        Button buttonMemes = (Button) findViewById(R.id.buttonMemes);
+
+        buttonMemes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(RelajaLaNeurona.this, Memes.class);
+                startActivityForResult(intent, 0);
+            }
+        });
+
+
+
+
+
+
+
+
+
+
         buttonInfo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -34,6 +57,7 @@ public class RelajaLaNeurona extends AppCompatActivity {
                 dialog.show();
             }
         });
+
 
 
 
