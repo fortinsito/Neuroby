@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.asociacionfortin.neuroby.Calculo$PlaceholderFragment">
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="495dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            tools:layout_editor_absoluteY="8dp">
+
+
+
+
+
+
+
+            <Button
+                android:id="@+id/buttonFunciones"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:elevation="1dp"
+                android:text="Funciones"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <Button
+                android:id="@+id/buttonLimites"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:elevation="1dp"
+                android:text="Límites y continuidad"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <Button
+                android:id="@+id/buttonDerivadaApli"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:elevation="1dp"
+                android:text="La derivada y aplicaciones"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+            <Button
+                android:id="@+id/buttonVariacionFunciones"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:elevation="1dp"
+                android:text="Variación de funciones"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

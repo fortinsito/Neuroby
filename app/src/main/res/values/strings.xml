@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">Neuroby</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="actionPositive">Aceptar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="title_activity_calculo">Cálculo</string>
+
+    <string name="text_descripcion_relaja">
+
+        Esta es una sección para que te olvides un momento de los deberes y descanses por un rato.\n\n
+
+        ¡Desestrésate! Tienes potencial.
+
+    </string>
+
+
+    <string name="text_acerca_neuroby">
+        Acerca de Neuroby\n
+    </string>
+
+    <string name="text_descripcion_neuroby">
+
+        Neuroby es una plataforma digital con el fin de brindar apoyo a estudiantes en temas muy importantes
+        para la ingeneniería, como son Álgebra, Cálculo y Probabilidad, basándonos en los planes de estudio
+        oficiales más recientes de la Facultad de Ingeniería de la UNAM (Plan 2016).\n\n\n
+
+    </string>
+
+
+    <string name="text_acerca_nosotros">
+        Acerca de Nosotros\n
+    </string>
+
+    <string name="text_descripcion_nosotros">
+
+        Nuestro equipo de trabajo está integrado por estudiantes de diferentes áreas de la ingeniería, de
+        la Facultad de Ingeniería de la UNAM, con un pensamiento en común: que el conocimiento y la educación
+        deben estar disponibles para todos. Es por esto que nos hemos reunido para crear una plataforma que sirva
+        como un apoyo autodidáctico, completamente gratuito, abierto para todas las personas que lo requieran, pero
+        dirigido principalmente a los estudiantes de ingeniería.\n\n\n
+
+    </string>
+
+
+    <string name="text_nuestro_comienzo">
+        Nuestro comienzo\n
+    </string>
+
+    <string name="text_descripcion_comienzo">
+
+        El proyecto comenzó cuando recién iniciamos nuestros estudios en la facultad.
+        Teníamos el deseo de ayudar a nuestros compañeros cuando se les dificultaba
+        temas que, a nosotros nos parecían más sencillos. Sin embargo llegó un punto
+        en el que era demasiado y ya no era posible ayudarlos. Fue entonces que surgió
+        la idea de contar con una plataforma que facilitara esta ayuda. Así, sería posible
+        que más personas tuvieran acceso al apoyo, y no sólo un número limitado de estudiantes.\n\n\n
+
+    </string>
+
+
+    <string name="text_integrantes_conocenos">
+
+        \tCEO y fundador de Neuroby: Adolfo Ordinola.\n
+        Cofundadora y jefa de contenido: Nalle García.</string>
+
+
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+
+</resources>
