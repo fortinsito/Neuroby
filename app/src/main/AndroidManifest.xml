@@ -27,13 +27,19 @@
             android:name=".RelajaLaNeurona"
             android:label="Relaja la neurona"
             android:parentActivityName=".ActivityPrincipal" />
-        <activity android:name=".Memes"
+        <activity
+            android:name=".Memes"
             android:label="Memes"
-            android:parentActivityName=".RelajaLaNeurona"/>
+            android:parentActivityName=".RelajaLaNeurona" />
         <activity
             android:name=".Ayuda"
             android:label="Ayuda"
             android:parentActivityName=".ActivityPrincipal" />
+        <activity
+            android:name=".Algebra"
+            android:label="@string/title_activity_algebra"
+            android:parentActivityName=".Asignaturas"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".Calculo"
             android:label="@string/title_activity_calculo"

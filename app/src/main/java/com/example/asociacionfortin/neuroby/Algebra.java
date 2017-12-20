@@ -3,6 +3,8 @@ package com.example.asociacionfortin.neuroby;
 import android.support.design.widget.TabLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.app.FragmentStatePagerAdapter;
+import android.support.v4.view.PagerAdapter;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
@@ -19,15 +21,15 @@ import android.view.ViewGroup;
 
 import android.widget.TextView;
 
-public class Calculo extends AppCompatActivity {
+public class Algebra extends AppCompatActivity {
 
     /**
-     * The {@link android.support.v4.view.PagerAdapter} that will provide
+     * The {@link PagerAdapter} that will provide
      * fragments for each of the sections. We use a
      * {@link FragmentPagerAdapter} derivative, which will keep every
      * loaded fragment in memory. If this becomes too memory intensive, it
      * may be best to switch to a
-     * {@link android.support.v4.app.FragmentStatePagerAdapter}.
+     * {@link FragmentStatePagerAdapter}.
      */
     private SectionsPagerAdapter mSectionsPagerAdapter;
 
@@ -39,14 +41,14 @@ public class Calculo extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_calculo);
+        setContentView(R.layout.activity_algebra);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
-        mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
+        mSectionsPagerAdapter = new Algebra.SectionsPagerAdapter(getSupportFragmentManager());
 
         // Set up the ViewPager with the sections adapter.
         mViewPager = (ViewPager) findViewById(R.id.container);
@@ -70,7 +72,7 @@ public class Calculo extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_calculo, menu);
+        getMenuInflater().inflate(R.menu.menu_algebra, menu);
         return true;
     }
 
@@ -95,7 +97,7 @@ public class Calculo extends AppCompatActivity {
      * A {@link FragmentPagerAdapter} that returns a fragment corresponding to
      * one of the sections/tabs/pages.
      */
-    public static class SectionsPagerAdapter extends FragmentPagerAdapter {
+    public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
         public SectionsPagerAdapter(FragmentManager fm) {
             super(fm);
@@ -106,14 +108,11 @@ public class Calculo extends AppCompatActivity {
 
             switch (position) {
                 case 0:
-                    CalculoDiferencial pestaña1 = new CalculoDiferencial();
+                    AlgebraUno pestaña1 = new AlgebraUno();
                     return pestaña1;
                 case 1:
-                    CalculoIntegral pestaña2 = new CalculoIntegral();
+                    AlgebraLineal pestaña2 = new AlgebraLineal();
                     return pestaña2;
-                case 2:
-                    CalculoVectorial pestaña3 = new CalculoVectorial();
-                    return pestaña3;
                 default:
                     return null;
             }
@@ -121,8 +120,8 @@ public class Calculo extends AppCompatActivity {
 
         @Override
         public int getCount() {
-            // Show 3 total pages.
-            return 3;
+            // Show 2 total pages.
+            return 2;
         }
 
 
@@ -132,11 +131,9 @@ public class Calculo extends AppCompatActivity {
 
             switch (position) {
                 case 0:
-                    return "Diferencial";
+                    return "Álgebra";
                 case 1:
-                    return "Integral";
-                case 2:
-                    return "Vectorial";
+                    return "Lineal";
                 default:
                     return null;
             }

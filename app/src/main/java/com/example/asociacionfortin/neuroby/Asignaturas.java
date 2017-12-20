@@ -27,6 +27,15 @@ public class Asignaturas extends AppCompatActivity {
             }
         });
 
+        Button buttonAlgebra = (Button) findViewById(R.id.buttonAlgebra);
+        buttonAlgebra.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Asignaturas.this, Algebra.class);
+                startActivityForResult(intent, 0);
+            }
+        });
+
 
 
 

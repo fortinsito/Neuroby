@@ -19,7 +19,8 @@
             android:layout_height="495dp"
             android:orientation="vertical"
             android:gravity="center"
-            tools:layout_editor_absoluteY="8dp">
+            tools:layout_editor_absoluteY="8dp"
+            tools:ignore="MissingConstraints">
 
 
 
