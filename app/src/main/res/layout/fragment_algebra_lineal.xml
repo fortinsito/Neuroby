@@ -21,48 +21,48 @@
 
 
         <Button
-            android:id="@+id/buttonSucesiones"
+            android:id="@+id/buttonGruposCampos"
             style="@style/Widget.AppCompat.Button.Borderless.Colored"
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:elevation="1dp"
-            android:text="Sucesiones y series"
+            android:text="Grupos y campos"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
         <Button
-            android:id="@+id/buttonIntegralDefinida"
+            android:id="@+id/buttonEspaciosVectoriales"
             style="@style/Widget.AppCompat.Button.Borderless.Colored"
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:elevation="1dp"
-            android:text="Las integrales definida e indefinida"
+            android:text="Espacios vectoriales"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
         <Button
-            android:id="@+id/buttonMetodosIntegracion"
+            android:id="@+id/buttonTransformacionesLin"
             style="@style/Widget.AppCompat.Button.Borderless.Colored"
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:elevation="1dp"
-            android:text="Métodos de integración"
+            android:text="Transformaciones lineales"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
         <Button
-            android:id="@+id/buttonDerivacionDiferenciacion"
+            android:id="@+id/buttonEspaciosProductoInterno"
             style="@style/Widget.AppCompat.Button.Borderless.Colored"
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:elevation="1dp"
-            android:text="Derivación y diferenciación de funciones\nescalares de varias variables"
+            android:text="Espacios con producto interno"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
         <Button
-            android:id="@+id/buttonSuperficies"
+            android:id="@+id/buttonOperadoresLin"
             style="@style/Widget.AppCompat.Button.Borderless.Colored"
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:elevation="1dp"
-            android:text="Superficies"
+            android:text="Operadores lineales en \nespacios con producto interno"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
 
 
