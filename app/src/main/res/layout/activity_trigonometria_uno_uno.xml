@@ -1,9 +1,304 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.asociacionfortin.neuroby.TrigonometriaUnoUno">
 
-</android.support.constraint.ConstraintLayout>
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="45dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:orientation="vertical">
+
+
+
+
+
+
+            <ImageView
+                android:id="@+id/imageViewFuncionesCofunciones"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/funciones_cofunciones"
+                android:layout_marginBottom="3dp"/>
+
+
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/textSeno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Seno  [Sen]"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@android:color/holo_blue_light" />
+
+            <TextView
+                android:id="@+id/textViewDescripcionSeno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Es la razón entre la ordenada y la distancia al origen"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/colorPrimary" />
+
+            <ImageView
+                android:id="@+id/imageViewFormulaSeno"
+                android:layout_width="320dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/angulo_cualquiera_sen"
+                android:layout_marginBottom="3dp"/>
+
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/textCoseno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Coseno    [Cos]"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@android:color/holo_blue_light" />
+
+            <TextView
+                android:id="@+id/textViewDescripcionCoseno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Es la razón entre la abscisa y la distancia al origen"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/colorPrimary" />
+
+            <ImageView
+                android:id="@+id/imageViewFormulaCoseno"
+                android:layout_width="320dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/angulo_cualquiera_cos"
+                android:layout_marginBottom="3dp"/>
+
+
+
+
+            <TextView
+                android:id="@+id/textTangente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tangente  [Tan]"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@android:color/holo_blue_light" />
+
+            <TextView
+                android:id="@+id/textViewDescripcionTangente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Es la razón entre la ordenada y la abscisa"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/colorPrimary" />
+
+            <ImageView
+                android:id="@+id/imageViewFormulaTangente"
+                android:layout_width="320dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/angulo_cualquiera_tan"
+                android:layout_marginBottom="3dp"/>
+
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/textCotangente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cotangente    [Cot o Ctg]"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@android:color/holo_blue_light" />
+
+            <TextView
+                android:id="@+id/textViewDescripcionCotangente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Es la razón entre la abscisa y la ordenada"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/colorPrimary" />
+
+            <ImageView
+                android:id="@+id/imageViewFormulaCotangente"
+                android:layout_width="320dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/angulo_cualquiera_cot"
+                android:layout_marginBottom="3dp"/>
+
+
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/textSecante"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Secante   [Sec]"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@android:color/holo_blue_light" />
+
+            <TextView
+                android:id="@+id/textViewDescripcionSecante"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Es la razón entre la distancia al origen y la abscisa"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/colorPrimary" />
+
+            <ImageView
+                android:id="@+id/imageViewFormulaSecante"
+                android:layout_width="320dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/angulo_cualquiera_sec"
+                android:layout_marginBottom="3dp"/>
+
+
+
+
+
+
+
+            <TextView
+                android:id="@+id/textCosecante"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cosecante [Csc]"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@android:color/holo_blue_light" />
+
+            <TextView
+                android:id="@+id/textViewDescripcionCosecante"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Es la razón entre la distancia al origen y la ordenada"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/colorPrimary" />
+
+            <ImageView
+                android:id="@+id/imageViewFormulaCosecante"
+                android:layout_width="320dp"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/angulo_cualquiera_csc"
+                android:layout_marginBottom="3dp"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <Button
+                android:id="@+id/buttonInfo"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:drawableTop="@drawable/comment_question_outline"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/textViewInfoTema"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="70dp"
+
+
+
+        android:layout_marginBottom="10dp"
+        android:text="@string/descripcion_trigonometria_uno_uno"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

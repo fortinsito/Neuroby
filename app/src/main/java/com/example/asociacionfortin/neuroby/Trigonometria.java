@@ -32,6 +32,24 @@ public class Trigonometria extends AppCompatActivity {
             }
         });
 
+        Button buttonTrigonometriaTemaUnoTres = (Button) findViewById(R.id.buttonTrigonometriaTemaUnoTres);
+        buttonTrigonometriaTemaUnoTres.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Trigonometria.this, TrigonometriaUnoTres.class);
+                startActivityForResult(intent, 0);
+            }
+        });
+
+        Button buttonTrigonometriaTemaUnoCuatro = (Button) findViewById(R.id.buttonTrigonometriaTemaUnoCuatro);
+        buttonTrigonometriaTemaUnoCuatro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Trigonometria.this, TrigonometriaUnoCuatro.class);
+                startActivityForResult(intent, 0);
+            }
+        });
+
 
 
     }

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asociacionfortin.neuroby.TrigonometriaUnoCuatro">
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="45dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:orientation="vertical">
+
+
+
+
+
+
+
+
+
+
+
+            <ImageView
+                android:id="@+id/imageViewValoresAngulosNotables"
+                android:layout_width="320dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/valores_angulos_notables"
+                android:layout_marginBottom="3dp"/>
+
+
+
+
+
+            <TextView
+                android:id="@+id/textViewDescripcionSignos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Apoyándonos del círculo unitario podemos obtener fácilmente los valores de los ángulos notables y de sus múltiplos.\n\nPara fines de optimización dejamos los valores en las tablas."
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginBottom="3dp"/>
+
+
+
+
+
+            <ImageView
+                android:id="@+id/imageViewValoresAngulosNotablesMultiplos"
+                android:layout_width="320dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/valores_angulos_notables_multiplos"
+                android:layout_marginBottom="5dp"/>
+
+
+
+
+
+
+
+
+
+
+            <Button
+                android:id="@+id/buttonInfo"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:drawableTop="@drawable/comment_question_outline"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/textViewInfoTema"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="70dp"
+
+
+
+        android:layout_marginBottom="10dp"
+        android:text="@string/descripcion_trigonometria_uno_cuatro"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

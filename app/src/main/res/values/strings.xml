@@ -12,6 +12,8 @@
     <string name="title_activity_trigonometria">Trigonometría</string>
     <string name="title_activity_trigonometria_uno_uno">Subtema 1.1</string>
     <string name="title_activity_trigonometria_uno_dos">Subtema 1.2</string>
+    <string name="title_activity_trigonometria_uno_tres">Subtema 1.3</string>
+    <string name="title_activity_trigonometria_uno_cuatro">Subtema 1.4</string>
     <string name="descripcion_trigonometria_uno_uno">Definición de las funciones trigonométricas para un ángulo cualquiera</string>
     <string name="descripcion_trigonometria_uno_dos">Definición de las funciones trigonométricas para un ángulo agudo en un triángulo rectángulo</string>
     <string name="descripcion_trigonometria_uno_tres">Signo de las funciones trigonométricas en los cuatro cuadrantes</string>
@@ -21,8 +23,11 @@
     <string name="descripcion_trigonometria_uno_siete">Ley de senos y ley de cosenos</string>
     <string name="descripcion_trigonometria_uno_ocho">Ecuaciones trigonométricas de primer y segundo grado con una incógnita</string>
 
+    <string name="descripcion_signos_cuadrantes">Considerando que la distancia de un punto cualquiera al origen de coordenadas siempre es positiva,
+                                                    vemos que los signos de las funciones en los distintos cuadrantes son</string>
 
-    <string name="referencia_trigonometria_uno_dos">
+
+    <string name="referencia_trigonometria_baldor">
 
                 Dr. J. A. Baldor\n
                 2013 (Cuarta reimpresión)\n
@@ -31,10 +36,6 @@
                 Grupo Editorial Patria
 
     </string>
-
-
-
-
 
 
     <string name="title_activity_calculo">Cálculo</string>

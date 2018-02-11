@@ -48,12 +48,18 @@
             android:name=".TrigonometriaUnoUno"
             android:label="@string/title_activity_trigonometria_uno_uno"
             android:parentActivityName=".Trigonometria" />
-
         <activity
             android:name=".TrigonometriaUnoDos"
             android:label="@string/title_activity_trigonometria_uno_dos"
             android:parentActivityName=".Trigonometria" />
-
+        <activity
+            android:name=".TrigonometriaUnoTres"
+            android:label="@string/title_activity_trigonometria_uno_tres"
+            android:parentActivityName=".Trigonometria" />
+        <activity
+            android:name=".TrigonometriaUnoCuatro"
+            android:label="@string/title_activity_trigonometria_uno_cuatro"
+            android:parentActivityName=".Trigonometria" />
         <activity
             android:name=".Calculo"
             android:label="@string/title_activity_calculo"
@@ -63,7 +69,6 @@
             android:name=".Conocenos"
             android:label="Conócenos"
             android:parentActivityName=".Ayuda" />
-
     </application>
 
 </manifest>

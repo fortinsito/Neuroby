@@ -7,12 +7,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class TrigonometriaUnoDos extends AppCompatActivity {
+public class TrigonometriaUnoTres extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_trigonometria_uno_dos);
+        setContentView(R.layout.activity_trigonometria_uno_tres);
+
 
 
 
@@ -22,7 +23,7 @@ public class TrigonometriaUnoDos extends AppCompatActivity {
         buttonInfo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                AlertDialog.Builder builder = new AlertDialog.Builder(TrigonometriaUnoDos.this);
+                AlertDialog.Builder builder = new AlertDialog.Builder(TrigonometriaUnoTres.this);
 
                 builder.setTitle("Referencia");
                 builder.setMessage(R.string.referencia_trigonometria_baldor);
@@ -33,6 +34,8 @@ public class TrigonometriaUnoDos extends AppCompatActivity {
                 dialog.show();
             }
         });
+
+
 
 
 
