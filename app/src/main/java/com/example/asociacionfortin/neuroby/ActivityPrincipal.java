@@ -108,6 +108,29 @@ public class ActivityPrincipal extends AppCompatActivity
 
         } else if (id == R.id.nav_compartir) {
 
+            /*
+
+            // Este bloque de código es para abrir WhatsApp, aunque también se puede abrir otra App bajo la misma lógica
+            Intent launchIntent = getPackageManager().getLaunchIntentForPackage("com.whatsapp");
+            startActivity(launchIntent);
+            */
+
+
+
+
+            //Este bloque de código es para enviar un mensaje por algún medio. Generalmente para compartir una invitación.
+            Intent sendIntent = new Intent();
+            sendIntent.setAction(Intent.ACTION_SEND);
+
+            sendIntent.putExtra(Intent.EXTRA_TEXT, "¡Ey! ¿Aún sufriendo con las materias de ingeniería? \n\n Echa un vistazo a la app Neuroby. Ahí está todo lo que necesitas.\n\n\n Para más info contacta al CEO:\ninstagram.com/adolfo.ordinola\ntwitter.com/AdolfoOrdinola\nfacebook.com/adolfo.ordinola");
+
+            //Esta línea de código indica el tipo de mensaje que se enviará
+            sendIntent.setType("text/plain");
+
+            startActivity(sendIntent);
+
+
+
         } else if (id == R.id.nav_ayuda) {
 
             Intent intent = new Intent(ActivityPrincipal.this, Ayuda.class);

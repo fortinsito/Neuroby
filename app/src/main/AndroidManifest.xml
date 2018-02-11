@@ -39,7 +39,21 @@
             android:name=".Algebra"
             android:label="@string/title_activity_algebra"
             android:parentActivityName=".Asignaturas"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Trigonometria"
+            android:label="@string/title_activity_trigonometria"
+            android:parentActivityName=".Algebra" />
+        <activity
+            android:name=".TrigonometriaUnoUno"
+            android:label="@string/title_activity_trigonometria_uno_uno"
+            android:parentActivityName=".Trigonometria" />
+
+        <activity
+            android:name=".TrigonometriaUnoDos"
+            android:label="@string/title_activity_trigonometria_uno_dos"
+            android:parentActivityName=".Trigonometria" />
+
         <activity
             android:name=".Calculo"
             android:label="@string/title_activity_calculo"

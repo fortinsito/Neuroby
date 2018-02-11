@@ -9,6 +9,34 @@
     <string name="actionPositive">Aceptar</string>
     <string name="cancel">Cancelar</string>
     <string name="title_activity_algebra">Álgebra</string>
+    <string name="title_activity_trigonometria">Trigonometría</string>
+    <string name="title_activity_trigonometria_uno_uno">Subtema 1.1</string>
+    <string name="title_activity_trigonometria_uno_dos">Subtema 1.2</string>
+    <string name="descripcion_trigonometria_uno_uno">Definición de las funciones trigonométricas para un ángulo cualquiera</string>
+    <string name="descripcion_trigonometria_uno_dos">Definición de las funciones trigonométricas para un ángulo agudo en un triángulo rectángulo</string>
+    <string name="descripcion_trigonometria_uno_tres">Signo de las funciones trigonométricas en los cuatro cuadrantes</string>
+    <string name="descripcion_trigonometria_uno_cuatro">Valores de las funciones trigonométricas para ángulos de 30, 45 y 60 grados y sus múltiplos</string>
+    <string name="descripcion_trigonometria_uno_cinco">Identidades trigonométricas</string>
+    <string name="descripcion_trigonometria_uno_seis">Teorema de Pitágoras</string>
+    <string name="descripcion_trigonometria_uno_siete">Ley de senos y ley de cosenos</string>
+    <string name="descripcion_trigonometria_uno_ocho">Ecuaciones trigonométricas de primer y segundo grado con una incógnita</string>
+
+
+    <string name="referencia_trigonometria_uno_dos">
+
+                Dr. J. A. Baldor\n
+                2013 (Cuarta reimpresión)\n
+                GEOMETRÍA Y TRIGONOMETRÍA\n
+                México\n
+                Grupo Editorial Patria
+
+    </string>
+
+
+
+
+
+
     <string name="title_activity_calculo">Cálculo</string>
 
     <string name="text_descripcion_relaja">
@@ -69,9 +97,16 @@
         \tCEO y fundador de Neuroby: Adolfo Ordinola.\n
         Cofundadora y jefa de contenido: Nalle García.</string>
 
+    <string name="text_invitacion_app">
 
-    <string name="section_format">Hello World from section: %1$d</string>
+        ¡Ey! ¿Aún sufriendo con las materias de ingeniería?\n\n
+
+        Echa un vistazo a la App que el Dios Adolfo creó para que dejes de ser un pendejo
+
+        \n\n\n
+        instagram.com/fortinsito
 
 
+    </string>
 
 </resources>
