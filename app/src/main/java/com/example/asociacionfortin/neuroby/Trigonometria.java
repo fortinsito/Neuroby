@@ -50,6 +50,15 @@ public class Trigonometria extends AppCompatActivity {
             }
         });
 
+        Button buttonTrigonometriaTemaUnoCinco = (Button) findViewById(R.id.buttonTrigonometriaTemaUnoCinco);
+        buttonTrigonometriaTemaUnoCinco.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Trigonometria.this, TrigonometriaUnoCinco.class);
+                startActivityForResult(intent, 0);
+            }
+        });
+
 
 
     }

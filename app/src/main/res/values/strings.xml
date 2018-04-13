@@ -14,6 +14,7 @@
     <string name="title_activity_trigonometria_uno_dos">Subtema 1.2</string>
     <string name="title_activity_trigonometria_uno_tres">Subtema 1.3</string>
     <string name="title_activity_trigonometria_uno_cuatro">Subtema 1.4</string>
+    <string name="title_activity_trigonometria_uno_cinco">Subtema 1.5</string>
     <string name="descripcion_trigonometria_uno_uno">Definición de las funciones trigonométricas para un ángulo cualquiera</string>
     <string name="descripcion_trigonometria_uno_dos">Definición de las funciones trigonométricas para un ángulo agudo en un triángulo rectángulo</string>
     <string name="descripcion_trigonometria_uno_tres">Signo de las funciones trigonométricas en los cuatro cuadrantes</string>
@@ -95,8 +96,8 @@
 
     <string name="text_integrantes_conocenos">
 
-        \tCEO y fundador de Neuroby: Adolfo Ordinola.\n
-        Cofundadora y jefa de contenido: Nalle García.</string>
+        \tCEO y fundador de Neuroby: <b> <u> Adolfo Ordinola. </u> </b>\n
+        Cofundadora y jefa de contenido: <b>Nalle García.</b></string>
 
     <string name="text_invitacion_app">
 

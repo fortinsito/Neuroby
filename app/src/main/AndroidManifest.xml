@@ -4,9 +4,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/logo_neuroby_v5"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/logo_neuroby_v5"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
@@ -60,6 +60,12 @@
             android:name=".TrigonometriaUnoCuatro"
             android:label="@string/title_activity_trigonometria_uno_cuatro"
             android:parentActivityName=".Trigonometria" />
+
+        <activity
+            android:name=".TrigonometriaUnoCinco"
+            android:label="@string/title_activity_trigonometria_uno_cinco"
+            android:parentActivityName=".Trigonometria" />
+
         <activity
             android:name=".Calculo"
             android:label="@string/title_activity_calculo"
